@@ -14,5 +14,5 @@ yind = vec2ind(testy);
 class={'wild type'; 'non-wild type'};
 score=max(testy)';
 pred=table(test_tab.Properties.RowNames,class(yind),score(:,1),...
-    'VariableNames',["ID","Predicted class","Probability score"]);
+    'VariableNames',["ID","Predicted_class","Probability_score"]);
 end
